@@ -37,3 +37,5 @@ export interface EditorAPI {
   setContent: (content: string) => void;
   getContent: () => string;
 }
+
+export * from './template';

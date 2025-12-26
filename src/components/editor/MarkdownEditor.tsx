@@ -9,7 +9,7 @@ import { MarkdownPreview } from "@/components/preview";
 interface MarkdownEditorProps {
   markdown: string;
   onChange: (value: string) => void;
-  textareaRef: React.RefObject<HTMLTextAreaElement>;
+  textareaRef: React.RefObject<HTMLTextAreaElement | null>;
   editorAPI: EditorAPI;
   styleConfig: StyleConfig;
 }
